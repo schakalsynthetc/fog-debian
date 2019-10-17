@@ -1,0 +1,6 @@
+/usr/lib/systemd/catalog systemd/noawait
+/etc/init.d systemd/noawait
+/lib/udev/hwdb.d udev/noawait
+/usr/share/menu menu
+/usr/lib/menu menu
+/etc/menu-methods menu

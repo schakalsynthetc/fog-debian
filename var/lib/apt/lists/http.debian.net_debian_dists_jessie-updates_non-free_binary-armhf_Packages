@@ -1,0 +1,18 @@
+Package: libclamunrar7
+Source: libclamunrar
+Version: 0.99-0+deb8u1
+Installed-Size: 53
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: armhf
+Depends: libclamav7, libc6 (>= 2.4)
+Description: anti-virus utility for Unix - unrar support
+Homepage: http://www.clamav.net/
+Description-md5: cc91b3ee0883ae72d88576f9ca8c850e
+Section: non-free/libs
+Priority: extra
+Filename: pool/non-free/libc/libclamunrar/libclamunrar7_0.99-0+deb8u1_armhf.deb
+Size: 28942
+MD5sum: 18b7b512f8e24f1c49c8a97be9c47126
+SHA1: 3a1a95b06d2b78e4f91cf6c0d8fef0bc1fa5de49
+SHA256: 0770068b3d6a655c32a9315c99bfe897aadd39c35688309f630db96148c0ba33
+

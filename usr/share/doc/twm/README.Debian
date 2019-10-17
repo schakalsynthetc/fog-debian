@@ -1,0 +1,20 @@
+Debian README for twm package
+=============================
+
+Newcomers to the X Window System should first read the Debian X FAQ
+(Frequently Asked Questions list): /usr/share/doc/x11-common/FAQ.gz.
+You can view this file with your favorite pager program after decompressing
+it.  For example:
+    $ zcat /usr/share/doc/x11-common/FAQ.gz | pager
+
+For information on the /etc/X11/twm/system.twmrc file, see the twm(1)
+manual page.  Note that /etc/X11/twm/system.twmrc is auto-generated from
+the /etc/X11/twm/system.twmrc-menu file, so as to be able to support the
+Debian menu system.  You should therefore make your customizations to
+/etc/X11/twm/system.twmrc-menu.  After the update-menu command is run, they
+will appear in /etc/X11/twm/system.twmrc and be used by the twm binary.
+
+Some examples of .twmrc files from days of yore are available in
+/usr/share/doc/twm/examples.
+
+vim:set ai et sts=4 sw=4 tw=80:

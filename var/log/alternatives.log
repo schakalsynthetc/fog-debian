@@ -1,0 +1,28 @@
+update-alternatives 2015-07-10 20:04:03: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2015-07-10 20:04:03: link group awk updated to point to /usr/bin/mawk
+update-alternatives 2015-07-10 20:05:04: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2015-07-10 20:05:09: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
+update-alternatives 2015-07-10 20:05:09: link group rmt updated to point to /usr/sbin/rmt-tar
+update-alternatives 2015-07-10 20:05:23: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2015-07-10 20:05:23: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2015-07-10 20:05:23: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
+update-alternatives 2015-07-10 20:05:23: link group w updated to point to /usr/bin/w.procps
+update-alternatives 2015-07-10 20:05:28: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2015-07-10 20:05:28: link group pager updated to point to /bin/more
+update-alternatives 2015-07-10 20:05:28: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
+update-alternatives 2016-11-14 21:55:18: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2016-11-14 21:55:18: link group rename updated to point to /usr/bin/prename
+update-alternatives 2016-11-14 21:55:42: run with --install /usr/bin/vncserver vncserver /usr/bin/tightvncserver 70 --slave /usr/share/man/man1/vncserver.1.gz vncserver.1.gz /usr/share/man/man1/tightvncserver.1.gz --slave /usr/bin/vncconnect vncconnect /usr/bin/tightvncconnect --slave /usr/share/man/man1/vncconnect.1.gz vncconnect.1.gz /usr/share/man/man1/tightvncconnect.1.gz
+update-alternatives 2016-11-14 21:55:42: link group vncserver updated to point to /usr/bin/tightvncserver
+update-alternatives 2016-11-14 21:55:42: run with --install /usr/bin/Xvnc Xvnc /usr/bin/Xtightvnc 70 --slave /usr/share/man/man1/Xvnc Xvnc.1.gz /usr/share/man/man1/Xtightvnc.1.gz
+update-alternatives 2016-11-14 21:55:42: link group Xvnc updated to point to /usr/bin/Xtightvnc
+update-alternatives 2016-11-14 21:55:42: run with --install /usr/bin/vncpasswd vncpasswd /usr/bin/tightvncpasswd 70 --slave /usr/share/man/man1/vncpasswd.1.gz vncpasswd.1.gz /usr/share/man/man1/tightvncpasswd.1.gz
+update-alternatives 2016-11-14 21:55:42: link group vncpasswd updated to point to /usr/bin/tightvncpasswd
+update-alternatives 2016-11-14 21:55:45: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/xterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/xterm.1.gz
+update-alternatives 2016-11-14 21:55:45: link group x-terminal-emulator updated to point to /usr/bin/xterm
+update-alternatives 2016-11-14 21:55:45: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/uxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/uxterm.1.gz
+update-alternatives 2016-11-14 21:55:45: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/koi8rxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/koi8rxterm.1.gz
+update-alternatives 2016-11-14 21:55:45: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/lxterm 30 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/lxterm.1.gz
+update-alternatives 2016-11-14 21:55:45: link group x-terminal-emulator updated to point to /usr/bin/lxterm
+update-alternatives 2016-11-14 21:55:47: run with --install /usr/bin/x-window-manager x-window-manager /usr/bin/twm 40 --slave /usr/share/man/man1/x-window-manager.1.gz x-window-manager.1.gz /usr/share/man/man1/twm.1.gz
+update-alternatives 2016-11-14 21:55:47: link group x-window-manager updated to point to /usr/bin/twm

@@ -1,0 +1,18 @@
+#!/system/bin/sh
+
+export ROOT=/data/data/com.termux/files/fog/debian
+
+/data/data/com.termux/files/usr/bin/proot \
+  -r $ROOT \
+  -v -1 -H -0 -l -p \
+  -b /sys \
+  -b /dev \
+  -b /proc \
+  -b /data \
+  -b /mnt \
+  -b /proc/mounts:/etc/mtab \
+  -b /:/l/host \
+  -b /storage/emulated/0:/l/sdcard \
+  -b /data/user/0/com.gnuroot.debian/support/ld.so.preload:/etc/ld.so.preload \
+  $@
+

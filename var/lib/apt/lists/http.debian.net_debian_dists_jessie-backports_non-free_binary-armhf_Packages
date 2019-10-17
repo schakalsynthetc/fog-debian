@@ -1,0 +1,630 @@
+Package: broadcom-sta-common
+Source: broadcom-sta
+Version: 6.30.223.271-2~bpo8+1
+Installed-Size: 23
+Maintainer: Eduard Bloch <blade@debian.org>
+Architecture: all
+Recommends: broadcom-sta-source, module-assistant
+Description: Common files for the Broadcom STA Wireless driver
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description-md5: a6bd57d95d48308610bc995bd8922939
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-common_6.30.223.271-2~bpo8+1_all.deb
+Size: 13392
+MD5sum: 1f5e65b71480dfc9b211a3da0aa2346d
+SHA1: e0f3c7b392a8e43e704878fb2e73ffe09949bf47
+SHA256: 6e303cbc7d1c9c036e4e923739c57ded84b41e006c62871f953c5a0f8ebe8494
+
+Package: broadcom-sta-dkms
+Source: broadcom-sta
+Version: 6.30.223.271-2~bpo8+1
+Installed-Size: 14093
+Maintainer: Eduard Bloch <blade@debian.org>
+Architecture: all
+Provides: broadcom-sta-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: wireless-tools
+Conflicts: broadcom-sta-modules
+Description: dkms source for the Broadcom STA Wireless driver
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description-md5: 4c9c20d84937e0293fe598f44d785bce
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-2~bpo8+1_all.deb
+Size: 2207964
+MD5sum: a2c4577cc8951a892ec32eef7859c207
+SHA1: 5bbefab7a49a0b2583ad9eaf2d11980dffe4fe92
+SHA256: 5ed0ee9edd04f0057aec31631224d00543377180286f6c95da2ec408f8f66773
+
+Package: broadcom-sta-source
+Source: broadcom-sta
+Version: 6.30.223.271-2~bpo8+1
+Installed-Size: 2175
+Maintainer: Eduard Bloch <blade@debian.org>
+Architecture: all
+Depends: debhelper (>= 8), make, xz-utils
+Recommends: module-assistant
+Description: Source for the Broadcom STA Wireless driver
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description-md5: 5bb170970da4a03f1c53b6f0202148ef
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-source_6.30.223.271-2~bpo8+1_all.deb
+Size: 2220172
+MD5sum: 93724eec2ed1608a5d9bf9ee43e8a64a
+SHA1: 9502c11e47b20479524186b15ea5b5b71be52e35
+SHA256: 5b0b376aa30304659dba8f562cb218c460db44ffa2867c1a829e5e764f85e55e
+
+Package: emacs24-common-non-dfsg
+Source: emacs24-non-dfsg
+Version: 24.5+1-1~bpo8+1
+Installed-Size: 4690
+Maintainer: Rob Browning <rlb@defaultvalue.org>
+Architecture: all
+Replaces: emacs22-common (<< 22.2)
+Depends: dpkg (>= 1.15.4) | install-info
+Conflicts: emacs22-common (<< 22.2)
+Description: GNU Emacs common non-DFSG items, including the core documentation
+Description-md5: 4ec84c62d4d6533d9f6a093fa1157b61
+Section: non-free/editors
+Priority: optional
+Filename: pool/non-free/e/emacs24-non-dfsg/emacs24-common-non-dfsg_24.5+1-1~bpo8+1_all.deb
+Size: 4673754
+MD5sum: e684db813991e0ac1d657afcda970566
+SHA1: bf660545d1f842558d3b017d6e0bc8b2bfc5edc2
+SHA256: f3b386acd5b8d1522d20edc4eee03441c7ba0a915df1bd3225f5a210aeb5fa19
+
+Package: firmware-amd-graphics
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 14023
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: firmware-linux-nonfree (<< 20151018-1~)
+Suggests: initramfs-tools
+Breaks: firmware-linux-nonfree (<< 20151018-1~)
+Description: Binary firmware for AMD/ATI graphics chips
+Multi-Arch: foreign
+Homepage: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 343ae0c543cb28b69fad1991c6c7dd2e
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-amd-graphics_20160824-1~bpo8+1_all.deb
+Size: 1505804
+MD5sum: d0ff18261e3200498a11f6e901b3b6c8
+SHA1: 278881d626c199c57c04dd39b5e565cabe9e3d19
+SHA256: 52b65cd904f3ca3351cda7e5ff6d2645e89a945d8baa0a9d518c9bec85c9d25d
+
+Package: firmware-atheros
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 7684
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Atheros wireless cards
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 0357a4b641c0e344fd462b6c34ceebf2
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-atheros_20160824-1~bpo8+1_all.deb
+Size: 3034350
+MD5sum: 43e0ca02326280528cd7772464ccbe96
+SHA1: 0e5cb91774ca904a68c79eb6ca82f41494c1b2aa
+SHA256: 7892fe1949aa5ab73d8a28caa71d7f31a285e2e508d903b8b999cbd252f8cc00
+
+Package: firmware-bnx2
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 420
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Broadcom NetXtremeII
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 393d5097727a60a8a93f887cb61d54c2
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2_20160824-1~bpo8+1_all.deb
+Size: 98164
+MD5sum: a5659e02c2c5596c12843b44b2c955eb
+SHA1: 8903080d305aad2a63ddd8748a01b2ef7cb80e3a
+SHA256: dfdc28198f5241046eac4c5ac00fdc1c4452baa91c2a44c110eb888ce6276b8a
+
+Package: firmware-bnx2x
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 3207
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Broadcom NetXtreme II 10Gb
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: c47bf7b0f57dc3bd989613e91b7775ee
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2x_20160824-1~bpo8+1_all.deb
+Size: 2814986
+MD5sum: e8f088ae9f3a3dad6f3a13db0094b2f7
+SHA1: f6aa90699dc697a6a56a3eb71c223bf83762bd59
+SHA256: 37b541d1e74edf2a9ff715b5208f63d319badb3e336edbd33f330b7d93b98dcb
+
+Package: firmware-brcm80211
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 12223
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Broadcom 802.11 wireless cards
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 856b66df7789456a4b79fa923cae7d36
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-brcm80211_20160824-1~bpo8+1_all.deb
+Size: 3509728
+MD5sum: 04a65aaa90f9d9761476aab324f4fa91
+SHA1: 853c7b03505d91e780189dffed669b9e39ddb320
+SHA256: a9ed2089e25997c26eb13f1934adf163a92c27c8043c12f1eb21639bb7f69591
+
+Package: firmware-cavium
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 6361
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Cavium Ethernet adapters
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 70810dd5fc28c5a8c2620e205f2fc2ef
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-cavium_20160824-1~bpo8+1_all.deb
+Size: 435494
+MD5sum: 9740d467e45b861deeb480454e58040f
+SHA1: 2dc02d7dd616f458c729eb9f5725f1b73218a611
+SHA256: 3ec3af2914ad082be91dbc8c01229aff7949f5a7acef161567ce8de067cf74ac
+
+Package: firmware-intel-sound
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 2842
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Intel sound DSPs
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 5bc146bcafa39c8842403f3b50973853
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-intel-sound_20160824-1~bpo8+1_all.deb
+Size: 610976
+MD5sum: 7163754d989220ba8a78feb34b32e070
+SHA1: dec7f3492c1f62d4f1a71ecade1456918db0a36c
+SHA256: 8dd6c81b99258a4744481761a4a1d5a168192dad6cbc7970a4773e6d8332f1af
+
+Package: firmware-intelwimax
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 4036
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Intel WiMAX Connection
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: d29bb7f1db1004f28ccb7e5d46579859
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-intelwimax_20160824-1~bpo8+1_all.deb
+Size: 1194784
+MD5sum: 00cc685b5937e659dc1c48dc4b62a8a7
+SHA1: 9fe1531ec78499dfcb01d594fa44a07dfa2aa804
+SHA256: 3b267bea5a717bf11535c6462644cdcba633c9dfeb64cfc5c67d6d30a2a99cba
+
+Package: firmware-ipw2x00
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 1187
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf | debconf-2.0
+Suggests: initramfs-tools
+Description: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+Multi-Arch: foreign
+Homepage: http://ipw2100.sourceforge.net/firmware.php, http://ipw2200.sourceforge.net/firmware.php
+Description-md5: 688d2b8d16d6b891a25cd12305a1dfd5
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-ipw2x00_20160824-1~bpo8+1_all.deb
+Size: 248278
+MD5sum: 99d7885136141b2aa3660480b51f7928
+SHA1: 9be43504f6cbf525264e5329b0f1f6a6cd87f856
+SHA256: e6888f631f33b9e759d607d44ca82ae20254366ff5cf0583669d3831308aa762
+
+Package: firmware-ivtv
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 827
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf | debconf-2.0
+Recommends: firmware-linux-nonfree (>= 0.38~)
+Suggests: initramfs-tools
+Description: Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
+Multi-Arch: foreign
+Homepage: http://dl.ivtvdriver.org/ivtv/firmware/
+Description-md5: e2035ca4f8f0e5d16f74a11516a7da88
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-ivtv_20160824-1~bpo8+1_all.deb
+Size: 105198
+MD5sum: ebd0841ea21b0e0e4ba55dfe885a84df
+SHA1: da53b45ae8d2d90e927f459c2a8fc8c416f01419
+SHA256: e36c68d08c56fd3b88530ecde95cd139ebc703bd122e8f003267496955a5756e
+
+Package: firmware-iwlwifi
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 45577
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Intel Wireless cards
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 0e0f948e8b7800aaf8a1c2627728d4b4
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20160824-1~bpo8+1_all.deb
+Size: 5879210
+MD5sum: f9174255ced589f79a72c8eb51ccf324
+SHA1: f84517e58e9ad7fc6097da6506b402219b45ce31
+SHA256: 52f58d111f6b9416e974b1a9b82a56829209cb7a11b0755bee875a95b091945a
+
+Package: firmware-libertas
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 7410
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: libertas-firmware
+Provides: libertas-firmware
+Suggests: initramfs-tools
+Breaks: libertas-firmware (<< 9.70.7.p0.0-2)
+Description: Binary firmware for Marvell Libertas 8xxx wireless cards
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: abea483affaef1708325f7a3d8b903a1
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-libertas_20160824-1~bpo8+1_all.deb
+Size: 2558500
+MD5sum: 4f62abf94e0367b8b81c204e4b775d7d
+SHA1: f644f09f85544c32fa2d6db0cbe89d32080ee7c9
+SHA256: ce45529cda90820665acd8c4ae4052682f4780d7f9d29b7ea5fe5f990c3084a6
+
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 13
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20160824-1~bpo8+1)
+Recommends: intel-microcode, amd64-microcode
+Description: Binary firmware for various drivers in the Linux kernel (meta-package)
+Description-md5: 687a23216812db9607283805e03cdaa8
+Section: non-free/metapackages
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-linux_20160824-1~bpo8+1_all.deb
+Size: 13474
+MD5sum: 9b0dea5a4048e2d88dc4c2e9042f000b
+SHA1: 8d42e5885bf3ca320b2b7db051f753c8029e5a05
+SHA256: 3934a5daa049289df92b05692bf696a8960cb6647ed1605e64ad19f992e02c25
+
+Package: firmware-linux-nonfree
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 13
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: firmware-misc-nonfree (= 20160824-1~bpo8+1), firmware-amd-graphics (= 20160824-1~bpo8+1)
+Recommends: intel-microcode, amd64-microcode
+Description: Binary firmware for various drivers in the Linux kernel (meta-package)
+Description-md5: 254bd7a6ccfa2fd6d9f0cf38d4f94aa7
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-linux-nonfree_20160824-1~bpo8+1_all.deb
+Size: 13240
+MD5sum: ea89bba409b7acedf8c4253dbefa6b00
+SHA1: bd6eadee0a49a2cdf10da3d1629c7ce5b8ceed2e
+SHA256: a1fcd6269e25044bf14673a231b8a90f537723a0cdc199703e4a73444a591e58
+
+Package: firmware-misc-nonfree
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 6980
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: firmware-adi, firmware-ivtv (<< 0.38~), firmware-linux (<< 0.19), firmware-linux-nonfree (<< 20151018-1~), firmware-ralink
+Provides: firmware-adi, firmware-ralink
+Suggests: initramfs-tools
+Breaks: firmware-adi, firmware-ivtv (<< 0.38~), firmware-linux (<< 0.19), firmware-linux-nonfree (<< 20151018-1~), firmware-ralink
+Description: Binary firmware for various drivers in the Linux kernel
+Multi-Arch: foreign
+Homepage: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 7383f27abb7ec9e2835f67adcdf56219
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-misc-nonfree_20160824-1~bpo8+1_all.deb
+Size: 2169500
+MD5sum: 2be95b908b8f3f14fe9d52643ad000cb
+SHA1: 1d1bc1c9d1b67fd0307154e21752301ea4e59357
+SHA256: 40cbac01c3dbe4d952fec7159802ba68d7290ecd75af8e1b277c4593ee30571d
+
+Package: firmware-myricom
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 3632
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Myri-10G Ethernet adapters
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: ca4d43bb454ac054fb806fbed3d8853e
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-myricom_20160824-1~bpo8+1_all.deb
+Size: 268152
+MD5sum: fabf454974dd96aced274cee444465b6
+SHA1: 48eb772de4747c4eff5a84b16fcaff325e93a438
+SHA256: 4fa8ecb5a2362a0ca5ef71ad2704d99234c9cea232a2f9a42e20c1eebd12f16a
+
+Package: firmware-netxen
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 1818
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 250ae378ac20125efbe9514583659d9f
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-netxen_20160824-1~bpo8+1_all.deb
+Size: 1237504
+MD5sum: d2d50e00d2e8e7366601921ed86b8c0d
+SHA1: 63e5e0a6c3b791abd379d19df54bcbf5447b6068
+SHA256: f30d9b4548bc608553b06eff29ef19ff43bf8bf99ba2fd85ab6c467f69fe28d5
+
+Package: firmware-qlogic
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 6451
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for QLogic HBAs
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 48e52f1163e28cdfeb717d6fa7fcda8a
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-qlogic_20160824-1~bpo8+1_all.deb
+Size: 2913086
+MD5sum: bf7326c00cdec94a6203ed487379eb2f
+SHA1: 73c7ef617afd6a61d98086c276c242abff4fd842
+SHA256: a31fbe3b882b24b2087da0c6c473ccbb523ada299426d07c9bc70f9a782187d2
+
+Package: firmware-realtek
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 978
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Realtek wired/wifi/BT adapters
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 4a48b6aa77394869eb2bea01d6c2691c
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-realtek_20160824-1~bpo8+1_all.deb
+Size: 307364
+MD5sum: cf744653677406e4e969ab41181bdd11
+SHA1: 2b2a1e0631493384002c25bc725b1da680f26abc
+SHA256: bbcfd78f70756bd77241c8022dc2228b8cf743ffd828752390a7dd5ea6a578e0
+
+Package: firmware-samsung
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 1719
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Samsung MFC video codecs
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: d4a262eae47dafb2d5673546b66ce855
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-samsung_20160824-1~bpo8+1_all.deb
+Size: 514288
+MD5sum: 554ebb163299bcede15d02bd854c4ffb
+SHA1: aaf7b66fa45f9f1e9ce100ac3e138335079a6d0e
+SHA256: 502c14dec03b19ad33e76fe37a56f309d20f6a1059399fb9be43a79a7d9e30f0
+
+Package: firmware-siano
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 1009
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Siano MDTV receivers
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: a62d71d8a8c7320383e87dfa0aaa5716
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-siano_20160824-1~bpo8+1_all.deb
+Size: 320082
+MD5sum: 08f5af0f7ce559b61c1b2f7214f168f9
+SHA1: ba77d13f19d2d3b6182517dd04553b887f6f300c
+SHA256: 0fa3e67ac5dd1f8b386c002a0da60358f2ef6860964519ca10a38088d6c081b8
+
+Package: firmware-ti-connectivity
+Source: firmware-nonfree
+Version: 20160824-1~bpo8+1
+Installed-Size: 4397
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for TI Connectivity wifi and BT/FM/GPS adapters
+Multi-Arch: foreign
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description-md5: 9e4fefe3b6b924493fe4c23935229cae
+Section: non-free/kernel
+Priority: optional
+Filename: pool/non-free/f/firmware-nonfree/firmware-ti-connectivity_20160824-1~bpo8+1_all.deb
+Size: 1015134
+MD5sum: a825b1b630655e6064bb0d35ad952602
+SHA1: 46654a33c6c9df51901bce711520ac537d3ef5f4
+SHA256: 0ada2e4fc658a05d97bab8835a17ffbea82c74f999b734bb9ddd6d05a82ac120
+
+Package: libcupti-doc
+Source: nvidia-cuda-toolkit
+Version: 6.5.19-3~bpo8+1
+Installed-Size: 135
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: all
+Description: NVIDIA CUDA Profiler Tools Interface documentation
+Homepage: http://developer.nvidia.com/cuda-profiling-tools-interface
+Description-md5: 0c6d9f272f89c82663423610515dd3eb
+Section: non-free/doc
+Priority: extra
+Filename: pool/non-free/n/nvidia-cuda-toolkit/libcupti-doc_6.5.19-3~bpo8+1_all.deb
+Size: 53328
+MD5sum: 84b54a19228af053ba4fe3eda721c39c
+SHA1: 75783d0cc356bf1fab0315919c3f7bd51f4caf2f
+SHA256: 05b8118db2cb7ee8d600e97b50f56a79e468aa8c17bd26e0636d76e02b357c9a
+
+Package: libcupti-doc
+Source: nvidia-cuda-toolkit
+Version: 7.5.18-4~bpo8+1
+Installed-Size: 145
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: all
+Description: NVIDIA CUDA Profiler Tools Interface documentation
+Homepage: http://developer.nvidia.com/cuda-profiling-tools-interface
+Description-md5: 0c6d9f272f89c82663423610515dd3eb
+Section: non-free/doc
+Priority: extra
+Filename: pool/non-free/n/nvidia-cuda-toolkit/libcupti-doc_7.5.18-4~bpo8+1_all.deb
+Size: 59806
+MD5sum: c7389abebe1176772fd434e065b1cf9b
+SHA1: d3d1fefa2da08e522172d5793b94cc9eb3a8bf3d
+SHA256: 10a4f62416bb470e7ffe29b769cd20962cd53b01b13314e70e824062cb9f36b4
+
+Package: nvidia-cuda-doc
+Source: nvidia-cuda-toolkit
+Version: 6.5.19-3~bpo8+1
+Installed-Size: 128869
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: all
+Description: NVIDIA CUDA and OpenCL documentation
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 1ade4ee74357654b5ef0998d191b1349
+Section: non-free/doc
+Priority: extra
+Filename: pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-doc_6.5.19-3~bpo8+1_all.deb
+Size: 65941688
+MD5sum: 0e44e53ba1794e113cf567bcb143a7ec
+SHA1: 99bddfda9967518c0896bcbb044047e46a0c0dad
+SHA256: 0b71a4d503e63b09ba184f3c45593ca5b84ac459673c9b80854e55c8377eedfb
+
+Package: nvidia-cuda-doc
+Source: nvidia-cuda-toolkit
+Version: 7.5.18-4~bpo8+1
+Installed-Size: 142883
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: all
+Description: NVIDIA CUDA and OpenCL documentation
+Homepage: http://www.nvidia.com/CUDA
+Description-md5: 1ade4ee74357654b5ef0998d191b1349
+Section: non-free/doc
+Priority: extra
+Filename: pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-doc_7.5.18-4~bpo8+1_all.deb
+Size: 73519558
+MD5sum: ae638159eb514bb8bfd0b1518444d6af
+SHA1: 3168ac1178bbdf102a88060529181d40e079a58e
+SHA256: 573f81a143a63651e87ecab89806331c7b5f73f4d3d648558fdf21bcb70f8e7b
+
+Package: parmetis-doc
+Source: parmetis
+Version: 4.0.3-4~bpo8+1
+Installed-Size: 5101
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: all
+Description: Parallel Graph Partitioning and Sparse Matrix Ordering Lib - Docs
+Homepage: http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview
+Description-md5: 55cc39b179c0b5b2dedead6fc6a8c34f
+Section: non-free/doc
+Priority: extra
+Filename: pool/non-free/p/parmetis/parmetis-doc_4.0.3-4~bpo8+1_all.deb
+Size: 3803382
+MD5sum: 3d16a382fe6f3f7a45fb5607c996bbe9
+SHA1: 74fe6f1e1eab33ffa3516cac18765e008acffa6f
+SHA256: 5a769fe2de27d2583913d0e52f0a96315681e3a5f4de092cb5bb47e11828f2b3
+
+Package: proj-rdnap
+Version: 2008-4~bpo8+1
+Installed-Size: 4757
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: proj-data
+Recommends: proj-bin
+Suggests: python-pdfminer
+Description: RDNAP grid correction files for PROJ.4
+Homepage: https://www.kadaster.nl/web/Themas/Registraties/Rijksdriehoeksmeting/Transformatie-van-coordinaten.htm
+Description-md5: b1f287e6b969763e383e09006074ff23
+Section: non-free/science
+Priority: optional
+Filename: pool/non-free/p/proj-rdnap/proj-rdnap_2008-4~bpo8+1_all.deb
+Size: 1355996
+MD5sum: 7075627141b7967ca27286ea9ff921b0
+SHA1: a5aba16ac7f25351df70b8db0c75be03c9ac4be4
+SHA256: 8c327eb1cfa42a01d4bf323828a197e7b8f05748ee0577fb2c0114235cf7ab3f
+
+Package: virtualbox-guest-additions-iso
+Version: 5.1.8-1~bpo8+1
+Installed-Size: 57965
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: virtualbox-guest-additions (<< 4.0.6-1~)
+Recommends: virtualbox (>= 5.1.8)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1
+Breaks: virtualbox-guest-additions (<< 4.0.6-1~)
+Description: guest additions iso image for VirtualBox
+Homepage: http://www.virtualbox.org/
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Section: non-free/misc
+Priority: extra
+Filename: pool/non-free/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_5.1.8-1~bpo8+1_all.deb
+Size: 39705350
+MD5sum: c6bae72ab04b8226882a84de50ecc5a3
+SHA1: a09a7b5af3d7af7e6638953544dd54a28ef1f8a6
+SHA256: fd4eb80bf1f8e6c13fb4425adbe28093eeec63b11bf2420302af62743a227171
+

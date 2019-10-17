@@ -1,0 +1,6 @@
+?package(twm):\
+  needs="wm"\
+  section="Window Managers"\
+  longtitle="Twm: Tab Window Manager"\
+  title="Twm"\
+  command="twm"

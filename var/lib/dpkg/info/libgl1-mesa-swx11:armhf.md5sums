@@ -1,0 +1,7 @@
+22411add6caba64cc5adabf740f71cd7  usr/lib/arm-linux-gnueabihf/libGL.so.1.6.0
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libgl1-mesa-swx11/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libgl1-mesa-swx11/script
+70654ce6a0299702916c13253fe04726  usr/share/doc/libgl1-mesa-swx11/README.Debian
+138e5efc8f1525a18af134a7e0b628f9  usr/share/doc/libgl1-mesa-swx11/changelog.Debian.gz
+241ed682eeb4973b7b7ac9131624f31f  usr/share/doc/libgl1-mesa-swx11/copyright
+c529caf84844de5058c322b71ddc3703  usr/share/lintian/overrides/libgl1-mesa-swx11

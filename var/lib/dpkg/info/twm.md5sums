@@ -1,0 +1,11 @@
+9b7e5b99c54ee74208201853dd1869a0  usr/bin/twm
+f288068ff437af9bff1b72cc8f8c3d80  usr/share/doc/twm/README.Debian
+1c00496a47ef560760bdebe1a0ddc0e5  usr/share/doc/twm/changelog.Debian.gz
+d75d2b0359987e9947e7ea4e4de4592d  usr/share/doc/twm/changelog.gz
+de7a611ccf2e14a14d320730601f1782  usr/share/doc/twm/copyright
+3d21e1c328c58bd18f3e303630a9508f  usr/share/doc/twm/examples/jim.twmrc.gz
+499bd018420a8842c688bba2ad7cb127  usr/share/doc/twm/examples/keith.twmrc
+6738ff4fe77b9e94402c6c4af9a4344a  usr/share/doc/twm/examples/lemke.twmrc.gz
+9755f6e9c088088aee43752163e9f96e  usr/share/man/man1/twm.1.gz
+5460883e1f98e7b3396664d32aff6a40  usr/share/menu/twm
+af614a9b8214026849b71adead1c1eb2  usr/share/xsessions/twm.desktop

@@ -1,0 +1,44 @@
+# Automatically generated file. Do not edit (see /usr/share/doc/menu/html/index.html)
+
+menu "/Debian/Applications/Shells"
+{
+  "Bash"    f.exec  "x-terminal-emulator  -T \"Bash\" -e sh -c \"/bin/bash --login\" &"
+  "Dash"    f.exec  "x-terminal-emulator  -T \"Dash\" -e sh -c \"/bin/dash -i\" &"
+  "Sh"    f.exec  "x-terminal-emulator  -T \"Sh\" -e sh -c \"/bin/sh --login\" &"
+}
+menu "/Debian/Applications/System/Administration"
+{
+  "Editres"    f.exec  "editres &"
+  "Xfontsel"    f.exec  "xfontsel &"
+  "Xkill"    f.exec  "xkill &"
+}
+menu "/Debian/Applications/System/Monitoring"
+{
+  "Top"    f.exec  "x-terminal-emulator  -T \"Top\" -e sh -c \"/usr/bin/top\" &"
+  "Xev"    f.exec  "x-terminal-emulator -e xev &"
+}
+menu "/Debian/Applications/System"
+{
+  "Administration" f.menu "/Debian/Applications/System/Administration"
+  "Monitoring" f.menu "/Debian/Applications/System/Monitoring"
+}
+menu "/Debian/Applications/Terminal Emulators"
+{
+  "XTerm"    f.exec  "xterm &"
+  "XTerm (Unicode)"    f.exec  "uxterm &"
+}
+menu "/Debian/Applications"
+{
+  "Shells" f.menu "/Debian/Applications/Shells"
+  "System" f.menu "/Debian/Applications/System"
+  "Terminal Emulators" f.menu "/Debian/Applications/Terminal Emulators"
+}
+menu "/Debian/Window Managers"
+{
+ "Twm" f.startwm "twm"
+}
+menu "/Debian"
+{
+  "Applications" f.menu "/Debian/Applications"
+  "Window Managers" f.menu "/Debian/Window Managers"
+}
